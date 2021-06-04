@@ -1,0 +1,91 @@
+.formular {
+  background: none;
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Kontaktform p {
+  color: orange;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.labelkontakt {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 5;
+}
+
+.labelkontakt label, .labelkontakt input, .labelkontakt textarea {
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+.labelkontakt label {
+  color: rgba(255,255,255,0.75);
+  pointer-events: none;
+  flex: 1;
+}
+
+.labelkontakt input, .labelkontakt textarea {
+  flex: 4;
+  border: 1px solid white;
+  width: calc( 100% - 2*(15px));
+}
+
+.labelkontakt input:valid, .labelkontakt textarea:valid,
+.labelkontakt input:focus, .labelkontakt textarea:focus {
+  border-radius: 10px;
+  border-color: rgba(172,253,220,1);
+}
+
+.labelkontakt textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+.fileinput {
+  border: 0px;
+
+}
+
+.fileinput:focus, .fileinput:valid {
+  border: none;
+}
+
+.kontaktbutton {
+  height: 50px;
+}
+
+.tlacitkokontakt {
+  border-radius: 15px;
+  margin-top: 10px;
+  border: 2px solid rgba(172,253,220,1);
+  color: white;
+  background-color: rgba(45,44,50,1);
+  padding: 15px;
+  outline:none;
+  transition: 0.1 ease;
+}
+
+.tlacitkokontakt:hover {
+  border-color: white;
+}
+
+.tlacitkokontakt:active {
+  border-color: darkorange;
+  padding: 13px;
+
+}
+
+.Nadpis span {
+  color: black;
+}

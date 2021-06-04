@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&family=Kanit:ital,wght@1,700&family=Varela+Round&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+li{
+  margin: 10px;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  margin: 25px;
+}
+
+body{
+      width: 100vw;
+      height: 100vh;
+      padding: 0px;
+      margin: 0px;
+      background-color: #333333;
+      font-family: "Varela Round";
+
+      background-image: url(Images/NGlogo.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: row;
+}
+
+h2 {
+  font-family: 'Kanit';
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+h2 span {
+  color: #222222;
+  animation: text 5s linear infinite;
+  animation-delay: 0s;
+}
+
+.sp1 {animation-delay: 0s}
+.sp2 {animation-delay: 0.25s}
+.sp3 {animation-delay: 0.5s}
+.sp4 {animation-delay: 0.75s}
+.sp5 {animation-delay: 1s}
+.sp6 {animation-delay: 1.25s}
+.sp7 {animation-delay: 1.5s}
+.sp8 {animation-delay: 1.75s}
+.sp9 {animation-delay: 2s}
+.sp10 {animation-delay: 2.25s}
+.sp11 {animation-delay: 2.5s}
+.sp12 {animation-delay: 2.75s}
+.sp13 {animation-delay: 3s}
+
+
+@keyframes text {
+  0%{
+    text-shadow: none;
+  }
+
+  7% {
+
+    text-shadow: #00b3ff 0px 0px 10px,
+                 #fff 0px 0px 20px,
+                 #00b3ff 0px 0px 30px,
+                 #fff 0px 0px 40px,
+                 #00b3ff 0px 0px 50px,
+                 #fff 0px 0px 60px,
+                 #00b3ff 0px 0px 70px,
+                 #fff 0px 0px 80px;
+  }
+
+  50% {
+    text-shadow: none;
+  }
+}
+
+.accountmenu{
+  width: 300px;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.accountmenuinside div {
+  width: 250px;
+  height: 60px;
+  border-top: 1px solid rgba(60,60,60,1);
+  border-bottom: 1px solid rgba(60,60,60,1);
+  background: none;
+}
+
+.accountmenuinside {
+  width: 250px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tlacitka {
+  border: 1px solid rgba(60,60,60,1);
+  border: 0px 1px 0px 1px;
+  background: none;
+  height: 20px;
+}
+
+.accountmenuinside button {
+    border: none;
+    background: none;
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: 100%;
+    height: 60px;
+}
+
+.closebtn {
+  position: relative;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  display: none;
+  text-decoration: none;
+}
+
+
+.accountmenuinside label {
+  border: none;
+  background: none;
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  text-decoration: none;
+  width: 100%;
+  height: 60px;
+}
+
+.vitej {
+  font-size: 25px;
+  color: rgba(172,253,220,1);
+}
+
+.tabulka {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: auto;
+}
+
+button:hover {
+  background-color: rgba(172,253,220,1);
+  color: rgba(15,15,15,1)
+}
+
+
+
+label{
+  color: white;
+}
+
+.ucty {
+  width: calc(100vw - 300px);
+    align-self: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 949px;
+    min-width: 400px;
+}
+
+.napisjmena {
+  margin: 10px;
+  color: white;
+}
+
+.ctverce {
+  margin: 0 0 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+  border-radius: 0 4px 4px 0;
+}
+
+.ctverce {
+  margin: 0 10px 0 40px;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+  border-radius: 0 4px 4px 0;
+}
+
+.ctverce-tip {
+  background-color: #e0ebf9e3;
+  color: #327ad5;
+  border-radius: 4px;
+  border: 0px;
+}
+
+.ctverce-warning {
+  background-color: #f5f8fde3;
+  border-left: 5px solid #8bb4e7;
+}
+
+.ctverce-info {
+  background-color: #fef7f8e3;
+  border-left: 5px solid #f0868e;
+}
+
+.skin {
+  margin: 20px;
+  align-self: center;
+}
+
+
+
+.Web {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 440px;
+  height: auto;
+  font-size: 30px;
+}
+
+.vlevo {
+  width: auto;
+  background-color: #f5f8fdc3;
+  border-left: 5px solid #f0868e;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.texty {
+  margin-top: 40px;
+}
+
+.vlevo .texty span {
+  margin-left: 40px;
+
+}
+
+.proffotka {
+  width: 400px;
+  height: 80px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin: 20px;
+  background-color: white;
+  box-shadow: black 0px 0px 10px;
+}
+
+.proffotka img {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.proffotka span {
+  font-size: 30px;
+  align-self: center;
+}
+
+
+
+.vpravo {
+  border-top: 5px solid #327ad5;
+  border-radius: 0px 0px 10px 10px;
+  margin-left: 20px;
+  width: 400px;
+  height: auto;
+  background-color: #f5f8fdc3;
+  display: flex;
+  flex-direction: column;
+}
+
+.vpravo span {
+  font-size: 30px;
+  width: 400px;
+  margin: 10px;
+}
+
+.servers {
+  margin-left: 20px;
+}
+
+.pripojen a {
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .skin {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+
+  }
+
+  .closebtn {
+    display: block;
+  }
+
+  .loginbody {
+    display: block;
+    font-size: 30px;
+  }
+
+  .accountmenu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+  }
+
+  .accountmenuinside {
+    margin: 25px;
+  }
+
+  .ucty {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

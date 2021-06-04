@@ -1,0 +1,162 @@
+.nas_tym {
+  padding-top: 80px;
+  width: 810px;
+  margin: auto;
+  color: white;
+}
+
+.divs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: auto;
+}
+
+.nadpis {
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  clip-path: polygon(35% 0%, 70% 5%, 72% 100%, 30% 95%);
+  margin: 4px;
+}
+
+
+.front, .back {
+  width: 250px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+ .back {
+
+  position: absolute;
+  top: -10px;
+}
+
+
+.Obrazek {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px 50px 0px 0px;
+}
+
+.Obrazek_Cobra {background-image: url(Images/TheCobraCZ.png);}
+.Obrazek_Johny {background-image: url(https://cdn.discordapp.com/avatars/430003025491263502/68863b3bb5cc220b5238b83d5ae7151e.png?size=128);}
+.Obrazek_Makin {background-image: url(Images/MakinCZE.png);}
+.Obrazek_DeatPlay {background-image: url(Images/DeatPlay.png);}
+.Obrazek_fw {background-image: url(Images/fw.png);}
+.Obrazek_Matko {background-image: url(https://cdn.discordapp.com/avatars/488695857605115906/eb7798d34b3763406dd01da4488d9081.png?size=128);}
+.Obrazek_Dodo {background-image: url(Images/Dodo.png);}
+.Obrazek_Dejvid {background-image: url(Images/Dejvid.png);}
+.Obrazek_Teasy {background-image: url(Images/Teasy.png);}
+.Obrazek_Piskotek {background-image: url(Images/Piskotek.png);}
+.Obrazek_KotiX {background-image: url(Images/KotiX.png);}
+.Obrazek_Green {background-image: url(Images/GrEen.png);}
+
+.Text {
+  width: 170px;
+  height: 170px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  font-size: 10px;
+}
+
+
+
+.jmeno {
+  width: 190px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: black;
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 5% 95%);
+  margin: 4px;
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+}
+
+.jmeno span {
+  color: white;
+}
+
+.Hodnost {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Hodnost span {
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  clip-path: polygon(5% 0%, 90% 5%, 100% 100%, 0% 95%);
+  margin: 4px;
+}
+
+.Nonegaming .nadpis, .Nonegaming .Hodnost span {
+  background-color: rgba(172,253,220,1);
+  color: black;
+}
+
+.FiveM .Hodnost span, .FiveM .nadpis {
+  background-color: orange;
+  color: black;
+}
+
+
+.karta-kontejner {
+    -webkit-perspective: 500px;
+            perspective: 500px;
+}
+
+.karta-kontejner:hover .karta{
+    -webkit-transform: rotateY( 180deg );
+            transform: rotateY( 180deg ) scale(1.5);
+}
+
+.karta {
+    -webkit-transition: -webkit-transform 0.7s;
+            transition: transform 0.7s;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+
+.front, .back {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+
+.back {
+    -webkit-transform: rotateY( 180deg );
+            transform: rotateY( 180deg );
+}
+
+@media only screen and (max-width: 540px) {
+    .nas_tym {
+      width: 540px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .nas_tym {
+      width: 810px;
+    }
+}

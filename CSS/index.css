@@ -1,0 +1,70 @@
+@import "servery.css";
+@import "Tym.css";
+@import "Kontakty.css";
+
+html {
+  scroll-behavior: smooth;
+  transition: scale(2);
+}
+
+* {
+
+  margin: 0px;
+  padding: 0px;
+  font-family: "Arial Black";
+  transition: 0.45s ease;
+}
+
+body {
+  background-color: rgba(35,34,40,1);
+
+}
+
+header {
+  z-index: 1500;
+  position: fixed;
+  left: -300px;
+  margin-top: 40px;
+  position: fixed;
+  display: hidden;
+  width: 300px;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+  z-index: 50;
+  position: absolute;
+  background-color: rgba(35,34,40,1);
+  width: 100%;
+}
+
+.divlogo {
+  width: 96px;
+  height: 96px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+.uvod {
+
+}
+
+.uvod h1 {
+
+  text-align: center;
+  font-size: 60px;
+  color: white;
+
+}
+
+.imgnonecraft {
+  width: 100%;
+}
